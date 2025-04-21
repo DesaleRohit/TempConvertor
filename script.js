@@ -17,14 +17,12 @@ function fahrenheitToCelsiusAndKelvin(f) {
     tempK = (f - 32) * 5 / 9 + 273.15;
 }
 
-
 function showCelsiusToOther() {
     let showCelsius = parseFloat(inputCelsius.value);
     celsiusToFahrenheitAndKelvin(showCelsius);
     document.querySelector('#fahrenheit').value = tempF;
     document.querySelector('#kelvin').value = tempK;
 }
-
 
 function showFahrenheitToOther() {
     let showFahrenheit = parseFloat(inputFahrenheit.value);
