@@ -30,3 +30,9 @@ function showFahrenheitToOther() {
     document.querySelector('#celsius').value = tempC;
     document.querySelector('#kelvin').value = tempK;
 }
+
+btn.addEventListener('click', () => {
+    inputCelsius.value = '';
+    inputFahrenheit.value = '';
+    inputKelvin.value = '';
+});
