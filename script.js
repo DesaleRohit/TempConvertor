@@ -36,4 +36,3 @@ btn.addEventListener('click', () => {
     inputFahrenheit.value = '';
     inputKelvin.value = '';
 });
-
