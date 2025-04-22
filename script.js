@@ -2,7 +2,11 @@ const inputCelsius = document.querySelector('#celsius');
 const inputFahrenheit = document.querySelector('#fahrenheit');
 const inputKelvin = document.querySelector('#kelvin');
 const btn = document.querySelector('#reset');
+const themeButton = document.querySelector('#theme');
 
+themeButton.addEventListener('click', () => {
+    document.body.classList.toggle('theme-dark');
+});
 /* round to 2 decimal places */
 function formatTemp(value) {
     return value.toFixed(2); 
