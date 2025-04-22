@@ -38,12 +38,19 @@ input{
     border: 3px solid pink;
     border-radius: 20px;
     font-size: 1em;
+    transition: 0.4s ease-in-out;
+
 }
 
 input:focus{
     outline: none;
     border: 3px solid #ff8484;
     box-shadow: 0 0 5px #ffe1e1;
+    transition: 0.4s ease-in-out;
+    caret-color: transparent;
+}
+input:focus::placeholder{
+    color: transparent;
 }
 
 button{
@@ -53,11 +60,12 @@ button{
     border: none;
     border-radius: 20px;
     background-color: #ffbbbb;
+    transition: 0.4s ease-in-out;
 }
 
 button:hover{
     background-color: #ff5b5b;
     cursor: pointer;
-    transition: 0.4s;
+    transition: 0.4s ease-in-out;
     color: #fff2f2;
 }
