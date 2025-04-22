@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap');
+
+@font-face {
+    font-family: 'Sansita Swashed';
+    src: url('font/SansitaSwashed-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
 
 *{
   margin: 0;
@@ -24,7 +30,7 @@ body{
 }
 
 h1{
-    font-size: 4em;
+    font-size: 5em;
     color: #ff4d4d;
     text-align: center;
     text-shadow: 2px 2px 5px #ffcaca;
