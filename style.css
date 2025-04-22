@@ -44,14 +44,12 @@ input{
 
 input:focus{
     outline: none;
-    border: 3px solid #ff8484;
+    border: 3px solid #ff6666;
     box-shadow: 0 0 5px #ffe1e1;
     transition: 0.4s ease-in-out;
     caret-color: transparent;
 }
-input:focus::placeholder{
-    color: transparent;
-}
+
 
 button{
     font-size: 1em;
